@@ -4,32 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Gloria+Hallelujah&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <title>AI Cookie Recipe Generator</title>
 </head>
 
 <body>
-    <header>
-        <h1>🍪 AI Cookie Recipe Generator 🍪</h1>
-    </header>
+    <div class="container">
 
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the flavour of the cookie recipe" autofocus required
-                autocomplete="off" />
-            <input type="submit" />
-        </form>
+        <header>
+            <h1> AI Cookie Recipe Generator</h1>
+        </header>
 
-        <div>
-            [Recipe will generate here]
-        </div>
-    </main>
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the flavour of the cookie recipe" autofocus required
+                    autocomplete="off" class="prompt" />
+                <input type="submit" class="submit-button" />
+            </form>
 
-    <footer>This AI project was coded by <a href="https://github.com/Annie15N" target="_blank">Annie Nelson</a> and is
-        open-sourced on
-        <a href="https://github.com/Annie15N/cookie-recipe-generator" target="_blank">GitHub</a> 🍪 and is hosted on <a
-            href="https://zingy-peony-8692ed.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+            <div class="recipe">
+                [Recipe will generate here]
+            </div>
+        </main>
+
+        <footer>This AI project was coded by <a href="https://github.com/Annie15N" target="_blank">Annie Nelson</a> and
+            is
+            open-sourced on
+            <a href="https://github.com/Annie15N/cookie-recipe-generator" target="_blank">GitHub</a> 🍪 and is hosted on
+            <a href="https://zingy-peony-8692ed.netlify.app/" target="_blank">Netlify</a>
+        </footer>
+
+    </div>
+
     <script src="src/index.js"></script>
 </body>
 

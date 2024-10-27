@@ -1,0 +1,76 @@
+body {
+  background-color: #36c2ce;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  color: #ff0080;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 700px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/148/713/original/jason-leung-Xaanw0s0pMk-unsplash.jpg?1730027803");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 15px;
+}
+
+header {
+}
+
+h1 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 20px;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+.prompt {
+  padding: 16px;
+  border: 2px solid #ff0080;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 28px;
+  color: black;
+}
+
+.submit-button {
+  margin-left: 15px;
+  background-color: #ff0080;
+  border: none;
+  border-radius: 25px;
+  padding: 14px 24px;
+  font-weight: 600;
+  font-size: 15px;
+  width: 130px;
+}
+
+.recipe {
+  font-size: 18px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #ff0080;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px;
+  padding: 10px;
+}
