@@ -75,7 +75,7 @@ main {
 }
 
 .generating {
-  animation: blink 1.5s step-start 0s infinite;
+  animation: blink 2s step-start 0s infinite;
 }
 
 @keyframes blink {
