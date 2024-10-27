@@ -65,6 +65,11 @@ main {
   border-left: 3px solid #ff0080;
 }
 
+.recipe strong {
+  color: #ff0080;
+  font-style: italic;
+}
+
 footer {
   text-align: center;
   font-size: 14px;

@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Gloria+Hallelujah&display=swap"
         rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>AI Cookie Recipe Generator</title>
@@ -24,7 +25,7 @@
         <main>
             <form id="recipe-generator-form">
                 <input type="text" placeholder="Enter the flavour of the cookie recipe" autofocus required
-                    autocomplete="off" class="prompt" />
+                    autocomplete="off" class="prompt" id="user-instructions" />
                 <input type="submit" class="submit-button" />
             </form>
 
