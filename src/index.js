@@ -25,12 +25,9 @@ function generateRecipe(event) {
   console.log(`Prompt: ${prompt}`);
   console.log(`Context: ${context}`);
 
-  new Typewriter("#recipe", {
-    strings: "Generating cookie recipe 🍪",
-    autoStart: true,
-    delay: 100,
-    cursor: "",
-  });
+  let recipeElement = document.querySelector("#recipe");
+  recipeElement.classList.remove("hidden");
+  recipeElement.innerHTML = `<div class = "generating"> ⏳ Generating a ${userInstructionsInput.value} cookie recipe 🍪 </div>`;
 }
 
 let recipeFormElement = document.querySelector("#recipe-generator-form");
